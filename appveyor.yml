@@ -11,7 +11,7 @@ install:
       
  #      corepack prepare yarn@3.3.0 --activate
  #- ps: .\install_yarn.ps1
- -ps: npm install --global yarn
+ - ps: npm install --global yarn
 
 
 test_script:
