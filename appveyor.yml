@@ -4,6 +4,8 @@ init:
  - appveyor version
  - echo %APPVEYOR_BUILD_WORKER_IMAGE%
  - echo %APPVEYOR_BUILD_WORKER_CLOUD%
+
+install:
  # - pwsh: >-
  #      npm i -g corepack@0.18.0
       
