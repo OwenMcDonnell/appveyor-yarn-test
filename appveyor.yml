@@ -1,3 +1,5 @@
+image: Visual Studio 2019
+
 init:
  - appveyor version
  - echo %APPVEYOR_BUILD_WORKER_IMAGE%
