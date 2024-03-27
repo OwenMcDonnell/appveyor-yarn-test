@@ -19,7 +19,7 @@ test_script:
 - ps: $expected_yarn_version = '1.22.22'
 - ps: $actual_yarn_version = (yarn --version)
 - ps: 'if($actual_yarn_version -ne $expected_yarn_version) { throw "Yarn version: $actual_yarn_version, expected: $expected_yarn_version"; }'
-- ps: yarn add vue2-perfect-scrollbar
+#- ps: yarn add vue2-perfect-scrollbar
 - ps: yarn install
 
 build: off
