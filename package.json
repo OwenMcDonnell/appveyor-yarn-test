@@ -31,7 +31,6 @@
     "iconv-lite": "0.x.x",
     "jquery": "^3.7",
     "jschardet": "1.6.0",
-    "json-rpc2": "^2.0",
     "lodash": "^4.17.19",
     "memoizee": "0.x.x",
     "mkdirp": "*",
