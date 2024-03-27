@@ -8,7 +8,7 @@ init:
  #      npm i -g corepack@0.18.0
       
  #      corepack prepare yarn@3.3.0 --activate
- - ps: ./install_yarn.ps1
+ - ps: .\install_yarn.ps1
 
 
 test_script:
